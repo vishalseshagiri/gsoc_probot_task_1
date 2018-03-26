@@ -1,0 +1,34 @@
+{
+  "name": "probot-app-merge-pr",
+  "version": "1.0.3",
+  "description": "GitHub App that merges PRs on command",
+  "author": "Ryan Tsao <ryan.j.tsao@gmail.com>",
+  "contributors": [],
+  "repository": "https://github.com/uber-web/probot-app-merge-pr.git",
+  "scripts": {
+    "start": "probot run ./index.js",
+    "test": "npm run lint && jest",
+    "jest": "jest",
+    "lint": "eslint .",
+    "fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "probot": "^6.1.0",
+    "express": "^4.16.3",
+    "rimraf": "^2.6.2",
+    "parse-github-url": "^1.0.2",
+    "standard": "^11.0.1",
+    "request": "2.85.0"
+  },
+  "devDependencies": {
+    "eslint": "4.18.1",
+    "eslint-plugin-prettier": "2.6.0",
+    "jest": "22.4.2",
+    "localtunnel": "1.8.3",
+    "prettier": "1.11.1"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "license": "MIT"
+}

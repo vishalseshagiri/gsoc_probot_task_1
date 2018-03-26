@@ -1,0 +1,7 @@
+version: '2'
+services:
+  probot-app-merge-pr:
+    build: .
+    volumes:
+      - .:/probot-app-merge-pr
+      - /probot-app-merge-pr/node_modules/
